@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>--EsUnEsbe.com--</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/style_suscripcion.css">
+
+</head>
+
+<body>
+
+  <img class="esbfloat" src="images/Bebe.png" alt="">
+
+
+
+  <ul>
+    <li class="menu1"><a href="esunesbe.html">inicio</a></li>
+    <li class="menu1"><a href="novedades.html">novedades</a></li>
+    <li class="menu1"><a href="contacto.html">contacto</a></li>
+    <li class="menu1"><a href="#info">info</a></li>
+    <li class="menu1"><a href="dameunhuesito.html">DameUnHuesito.com</a></li>
+    <li class="menu1"><a href="suscripcion.html">Suscribite</a></li>
+  </ul>
+
+  <form class="tipodeanimal" id="signup_form">
+    <fieldset>
+      <legend>Suscribite al boletin semanal de <br>EsUnEsbe.com!</legend>
+      <br>
+
+      <h2 class="dotted">Que animal sos?</h2>
+      <br>
+      <div class="formulario_suscripcion">
+        <input type="radio" id="perro" name="animal" value="perro">
+        <label for="perro">Perro</label><br>
+        <input type="radio" id="humano" name="animal" value="humano">
+        <label for="humano">Humano</label><br>
+        <input type="radio" id="gato" name="animal" value="gato">
+        <label for="gato">Gato</label><br>
+        <input type="radio" id="esma" name="animal" value="esma">
+        <label for="esma">Esma</label><br>
+        <input type="radio" id="otros" name="animal" value="otros">
+        <label for="otros">Otros -></label>
+        <input type="text" name="que_sos?" placeholder="Tortuga">
+      </div>
+
+      <br>
+      <h2 class="dotted">Como sos?</h2>
+      <br>
+
+      <div class="formulario_suscripcion">
+        <label for="nombre">Tu nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Pipo" required autofocus><br>
+        <label for="raza">Tu raza</label>
+        <input type="text" name="raza" id="raza" placeholder="Tiburon Blanco" required><br>
+        <label for="color">Tu color</label>
+        <input type="text" name="color" id="color" placeholder="Azul" required><br>
+      </div>
+      <br>
+      <fieldset>
+        <div class="formulario_suscripcion"></div>
+        <label for="sosbolud">Sos bolud@?</label><br>
+        <input type="radio" id="sosbolud_si" name="sosbolud" value="si">
+        <label for="sosbolud_si">Si</label><br>
+        <input type="range" id="cuan_bol" min="1" max="10">
+        <p><label for="cuan_bol">☝️ Caun boludo sos del 1 al 10?</label></p>
+        <input type="radio" id="sosbolud_no" name="sosbolud" value="no">
+        <label for="sosbolud_no">No</label><br>
+        </div>
+      </fieldset>
+
+      <br>
+      <h2 class="dotted">Datos de contacto</h2>
+      <br>
+      <div class="formulario_suscripcion">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="soybolud@perrimail.com" required>
+
+        <br><br>
+      </div>
+      <div>
+        <label for="terms">Acepto terminos y condiciones de Raul Perrito.
+          <input type="checkbox" name="terms" id="terms"></label><br><br>
+        <input class="center" id="submit1 " type="submit" name="submit" value="Suscribirme">
+      </div>
+    </fieldset>
+  </form>
+  <script src="javascript/suscripcion.js"></script>
+
+
+</body>
+
+</html>
